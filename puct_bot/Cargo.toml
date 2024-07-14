@@ -1,0 +1,13 @@
+[package]
+name = "puct_bot"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+json_connection = { version = "0.1.0", path = "../json_connection" }
+rand_xoshiro = "0.6.0"
+risk_bots = { version = "0.1.0", path = "../risk_bots" }
+risk_helper = { version = "0.1.0", path = "../risk_helper" }

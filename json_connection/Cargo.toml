@@ -1,0 +1,8 @@
+[package]
+name = "json_connection"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+risk_shared = { version = "0.1.0", path = "../risk_shared", features = ["serde"] }
+serde_json = "1.0.120"

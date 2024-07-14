@@ -1,0 +1,9 @@
+[package]
+name = "risk_engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+enum-map = "2.7.3"
+rand = "0.8.5"
+risk_shared = { path = "../risk_shared" }

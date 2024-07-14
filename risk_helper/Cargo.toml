@@ -1,0 +1,11 @@
+[package]
+name = "risk_helper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+enum-map = "2.7.3"
+risk_shared = { path = "../risk_shared"}
+
+[features]
+serde_json = []

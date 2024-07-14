@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = [
+    "attack_game",
+    "json_connection",
+    "mcts",
+    "puct_bot",
+    "risk_bots",
+    "risk_engine",
+    "risk_helper",
+    "risk_shared",
+    "sprt",
+    "spsa",
+]
+
+[profile.wasm-release]
+inherits = "release"
+opt-level = 3
+lto = "fat"
+codegen-units = 1

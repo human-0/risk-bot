@@ -1,0 +1,13 @@
+[package]
+name = "risk_bots"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+attack_game = { version = "0.1.0", path = "../attack_game" }
+enum-map = "2.7.3"
+json_connection = { version = "0.1.0", path = "../json_connection" }
+rand = { version = "0.8.5" }
+rand_xoshiro = "0.6.0"
+risk_helper = { path = "../risk_helper" }
+risk_shared = { path = "../risk_shared" }

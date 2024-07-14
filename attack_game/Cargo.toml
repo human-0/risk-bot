@@ -1,0 +1,12 @@
+[package]
+name = "attack_game"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+enum-map = "2.7.3"
+mcts = { path = "../mcts" }
+rand = { version = "0.8.5", default-features = false, features = ["alloc"] }
+risk_shared = { path = "../risk_shared" }
+rand_xoshiro = "0.6.0"
+

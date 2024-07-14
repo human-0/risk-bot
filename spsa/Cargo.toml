@@ -1,0 +1,17 @@
+[package]
+name = "spsa"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+attack_game = { version = "0.1.0", path = "../attack_game" }
+enum-map = "2.7.3"
+rand = "0.8.5"
+rand_xoshiro = "0.6.0"
+rayon = "1.10.0"
+risk_bots = { version = "0.1.0", path = "../risk_bots" }
+risk_engine = { version = "0.1.0", path = "../risk_engine" }
+risk_helper = { version = "0.1.0", path = "../risk_helper" }
+risk_shared = { version = "0.1.0", path = "../risk_shared" }
+serde = "1.0.204"
+serde_json = "1.0.120"
