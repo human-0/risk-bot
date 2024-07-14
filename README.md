@@ -10,6 +10,8 @@ A bot made for the [SYNCS Bot Battle 2024](https://github.com/syncs-usyd/risk-ga
 * `risk_engine` contains a reimplementation of the SYNCS game engine.
 * `risk_helper` contains a reimplementation of the SYNCS helper library.
 * `risk_shared` contains a reimplementation of the SYNCS shared library.
+* `sprt` contains tools for testing
+* `spsa` contains tools for tuning
 * `stub.py` contains a stub for loading `puct_bot` for the SYNCS match simulator
 * `build.sh` attempts to build the `puct_bot` and integrate it with `stub.py`.
 

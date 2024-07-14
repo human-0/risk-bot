@@ -28,10 +28,10 @@ pub struct Params {
 impl Default for Params {
     fn default() -> Self {
         Self {
-            c_puct: 0.7390775750168702,
-            c_puct_troops: 0.6886480396817488,
-            first_enemy_troop_reduction: 0.19112898155428668,
-            first_friendly_troop_reduction: 0.5879683842636655,
+            c_puct: 0.6028558951476736,
+            c_puct_troops: 0.702745173702057,
+            first_enemy_troop_reduction: 0.13864357808607813,
+            first_friendly_troop_reduction: 0.5888177056325355,
             eval: evaluate::Params::default(),
         }
     }

@@ -41,8 +41,8 @@ impl<S: StatefulStrategy> StatefulStrategyBot<S> {
             mcts: S::from_rng(rng),
             needs_search_reset: true,
             repeat_move: None,
-            first_enemy_troop_reduction: 0.653307917196393,
-            first_friendly_troop_reduction: 0.7108603406436419,
+            first_enemy_troop_reduction: 0.47578774202200713,
+            first_friendly_troop_reduction: 0.9711985622851357,
         }
     }
 

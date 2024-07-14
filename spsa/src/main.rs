@@ -96,7 +96,7 @@ fn main() {
     println!("Params: {params:#?}");
 
     let mut spsa = Spsa::new(params, hyper_params);
-    let result = spsa.tune(&SpsaPuct, rand::thread_rng(), "spsa2.tune");
+    let result = spsa.tune(&SpsaPuct, rand::thread_rng(), "tune.spsa");
 
     let mut values = result.into_iter().collect::<Vec<_>>();
     values.sort_by(|x, y| x.0.cmp(&y.0));
